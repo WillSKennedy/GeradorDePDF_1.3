@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Converter uma Tabela para PDF usando JavaScript</title>
+        
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" name="nomeDoUsuario" id="usuarioId" onkeyup=InserirNome() />           
+            <input type="text" name="curso" id="cursoId" onkeyup=InserirCurso() />  
+            <input type="text" name="categoria" id="categoriaId" onkeyup=InserirCategoria() />  
+        </div>
+        <p>
+            <input type="button" value="Criar PDF" id="btnImprimir" onclick="CriaPDF()" />
+        </p>
+    </body>
+</html>
